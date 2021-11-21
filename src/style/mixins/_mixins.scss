@@ -1,0 +1,16 @@
+@mixin btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: $blue;
+    border: $border;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+
+    &:hover{
+        background: $blue;
+        color: $black;
+    }
+}
