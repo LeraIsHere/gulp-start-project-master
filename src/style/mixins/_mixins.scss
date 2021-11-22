@@ -14,3 +14,16 @@
         color: $black;
     }
 }
+
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
+@mixin posttitle {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: $light-color;
+    line-height: 2;
+}

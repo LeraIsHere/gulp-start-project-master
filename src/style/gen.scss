@@ -32,13 +32,28 @@ html{
 
 }
 
+body{
+    background: $black;
+    overflow-x: hidden;
+}
+
 section{
     padding: 3rem 9%;
 }
 
-body{
-    background: $black;
-    overflow-x: hidden;
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+
+    span{
+        color: $blue;
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 4rem;
+        color: $white;
+    }
 }
 
 @media(max-width:991px){

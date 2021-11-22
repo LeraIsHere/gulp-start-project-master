@@ -55,16 +55,13 @@
         }
 
         p{
-            padding: 1rem 0;
-            font-size: 1.4rem;
-            color: $light-color;
-            line-height: 2;
+            @include posttitle;
         }
 
         @media(max-width:450px){
 
             h3{
-                font-size: 1.8rem;
+                font-size: 3.5rem;
             }
     
         }

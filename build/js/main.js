@@ -13,3 +13,9 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
         document.querySelector('.about .video-container .video').src = src;
     }
 })
+
+// анимация ссылок
+AOS.init({
+    duration: 800,
+    offset: 150,
+});
